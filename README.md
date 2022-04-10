@@ -83,7 +83,7 @@ SQLite.DB("db/netflix_catalog.sqlite")
 
 ## Creating a Movie resource
 
-A resource is a business entity made available through the application via a URL. In a Genie MVC app it also represents a bundle of Model, View, and Controller files - as well as additional files including a migration file for modifying the database, a test file, and a model data validator.
+A resource is a business entity made available through the application via a URL. In a Genie MVC app it also represents a bundle of Model, View, and Controller files - as well as additional files including a migration file for modifying the database, a test file, and a model data validator. This also generates unit tests for the resource.
 
 In the REPL run:
 
