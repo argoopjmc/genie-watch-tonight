@@ -29,6 +29,7 @@ pkg> add Genie # press ] from julia> prompt to enter Pkg mode
 Now, to create the app:
 
 ```julia
+julia> using Genie
 julia> Genie.newapp_mvc("Watch tonight")
 ```
 
@@ -76,7 +77,7 @@ dev:
 Now let's manually load the database configuration:
 
 ```julia
-julia> include(joinpath("config", "initializers", "searchlight.jl")
+julia> include(joinpath("config", "initializers", "searchlight.jl"))
 SQLite.DB("db/netflix_catalog.sqlite")
 ```
 
